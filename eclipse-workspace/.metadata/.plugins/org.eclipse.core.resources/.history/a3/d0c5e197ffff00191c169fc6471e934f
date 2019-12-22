@@ -1,0 +1,11 @@
+package replall;
+
+public class quizSubstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "012345678901";
+		System.out.println(str.replace("01", ""));
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.class13;
+
+public class ReplaceStringMethod {
+
+	public static void main(String[] args) {
+		// replace
+		// this method returns a new string resulting, rpelacing 
+		
+		String str="Hello dear, how areyou?";
+		System.out.println(str.replace('e', 'z'));
+
+	}
+
+}

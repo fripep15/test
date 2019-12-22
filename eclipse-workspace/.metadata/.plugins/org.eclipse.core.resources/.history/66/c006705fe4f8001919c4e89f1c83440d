@@ -1,0 +1,22 @@
+package com.class12;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+	
+		/*
+		 *this method checks, withr a string is empty are not
+		 *
+		 *
+		 */
+		
+		String str="";
+		
+		System.out.println("Is this string empty= " + str.isEmpty());
+		
+		String str2="Hello";
+		System.out.println("Is this string empty= " + str.isEmpty());
+		
+	}
+
+}

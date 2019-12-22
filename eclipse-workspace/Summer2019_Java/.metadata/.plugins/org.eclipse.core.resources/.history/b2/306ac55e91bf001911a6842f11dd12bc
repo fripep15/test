@@ -1,0 +1,24 @@
+package JavaProgramming;
+
+public class Primitivdatatype2 {
+	
+	/*
+	 Primitives: byte, short, int, long, float, double, booolean, char
+	 
+	 bolean: 
+	 */
+	
+	public static void main(String[] args) {
+	// boolean result = Earch is Flate;
+	// boolean num1 = 100; boolean only takes true or false results	
+	boolean result = true;
+	boolean result2 = false;
+	boolean reslt3 = 9 > 3;
+	boolean result = Earch is Flate;
+	System.out.println(result);
+	System.out.println(result2);
+
+	
+	}
+
+}

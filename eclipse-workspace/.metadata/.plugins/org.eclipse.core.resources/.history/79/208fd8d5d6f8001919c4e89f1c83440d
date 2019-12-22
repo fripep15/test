@@ -1,0 +1,18 @@
+package com.class12;
+
+public class ChangeLetterType {
+
+	public static void main(String[] args) {
+
+
+		String Str1= "Hellow World";
+		
+		System.out.println(" Before how was looking :: "+ Str1);
+		
+		Str1= Str1.toLowercase();
+		System.out.println(" after how it looking ::" + str1);
+		
+
+	}
+
+}

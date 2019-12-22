@@ -1,0 +1,12 @@
+package replall;
+
+public class quizSubstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word ="abrakadabra";
+
+		String str_Sample = "RockStar";
+		System.out.println("EndsWith character 'r': " + str_Sample.endsWith("r"));
+
+		}}

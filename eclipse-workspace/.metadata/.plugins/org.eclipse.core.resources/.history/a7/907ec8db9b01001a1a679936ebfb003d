@@ -1,0 +1,22 @@
+package ReviewForLoop;
+
+import java.util.Scanner;
+
+public class ExerciseOwn {
+
+	public static void main(String[] args) {
+
+Scanner scan;
+ String mothername, fathername, gender;
+ scan = new Scanner(System.in);
+ 
+ System.out.println("please enter mother name");
+ mothername=scan.nextLine();
+ 
+ System.out.println("please enter father name");
+ 
+ 
+
+	}
+
+}

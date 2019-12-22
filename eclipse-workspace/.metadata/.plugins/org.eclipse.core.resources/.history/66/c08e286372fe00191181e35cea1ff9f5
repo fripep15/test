@@ -1,0 +1,18 @@
+package com.nterview_questions;
+
+public class SwapString {
+
+	public static void main(String[] args) {
+		 str=str.replaceAll("love", "ask");
+         str1=str1.replaceAll("ask", "love");
+         
+          System.out.println(str);
+//         Find out how many alpha characters present in a string?
+         String str1="Hi@#%#$$%funf241332523";
+         
+         String s1=str1.replaceAll("[a-zA-Z]","");
+         
+         System.out.println(s1.length());
+	}
+
+}

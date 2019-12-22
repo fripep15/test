@@ -1,0 +1,16 @@
+package com.nterview_questions;
+
+public class AlphaNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Find out how many alpha characters present in a string?
+		//number3
+		String s = "Java,567Killers*";
+		System.out.println(s.replaceAll("[^A-Za-z]", ""));
+		// String s1=s.replaceAll("[A-Z-a-z]","");
+		  System.out.println(s.length());
+	}
+
+}

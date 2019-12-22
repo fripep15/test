@@ -1,0 +1,28 @@
+package com.class12;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+
+		// There are two ways to creat string objects.
+		//1. String Literal:
+		
+ String name="Jhon";
+ 
+//name.length();
+// find to know the number of characters/length, use as belwo:
+ 
+ System.out.println("The lenght of name is = " +name.length());
+ //2. Creating Sting with new key word:
+//name.length();
+ 
+ String name1=new String("John1");
+ int name1Len=name.length();
+ System.out.println(name1Len);
+
+ 
+ 
+
+	}
+
+}

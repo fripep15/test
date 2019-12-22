@@ -1,0 +1,13 @@
+package com.class13;
+
+public class Stringmanipulation1 {
+
+	public static void main(String[] args) {
+		// Sub String method
+		
+		String str="Java is getting interesting";
+		System.out.println(str.substring(15));
+
+	}
+
+}

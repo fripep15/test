@@ -1,0 +1,25 @@
+package replall;
+
+public class quizSubstring {
+
+	public static void main(String[] args) {
+		String str= "Watan is my contry and KABUL is its Capital";
+
+
+		System.out.println(str.toLowerCase());
+		
+		System.out.println("****** to Upper case  *********");
+		System.out.println(str.toUpperCase());
+		
+		System.out.println("********* charAt***********************");
+	System.out.println();
+		System.out.println(str.charAt(6));
+
+		System.out.println("******************* Char Replace with  **************************");
+	
+		System.out.println(str.replace('i', 'p'));
+		System.out.println("********************   Replace with*****************");
+		
+		System.out.println(str.toLowerCase().charAt(4)replaceAll('k', 'm'));
+		}
+	}

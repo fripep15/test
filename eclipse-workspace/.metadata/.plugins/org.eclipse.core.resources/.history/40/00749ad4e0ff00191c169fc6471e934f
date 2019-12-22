@@ -1,0 +1,33 @@
+package replall;
+
+public class ExerciseAdvanceLoop {
+	public static void main(String [] args) {
+		
+	
+		String [] name=new String [4];
+		
+		name[0]= "koji";
+		name[1]="kalo";
+		name[2]="shalo";
+		name[3]="walo";
+		
+		for (int i=0; i<=name.length;i++) {
+		System.out.println(name[i]);
+		
+		
+			
+		}
+		
+		String[] str= {"shamim", "azim","kalim"};
+		
+		
+		for (int i=0; i<=str.length-1; i++) {
+			
+			System.out.println(str[i]);
+		}
+		
+		
+		
+	}
+
+}

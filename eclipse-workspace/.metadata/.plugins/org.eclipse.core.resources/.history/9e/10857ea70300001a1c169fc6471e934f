@@ -1,0 +1,12 @@
+package replall;
+
+public class quizSubstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word ="ab rak adabra";
+
+		//String str_Sample = "RockStar";
+		System.out.println(word.charAt('a'));
+
+		}}

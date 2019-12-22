@@ -1,0 +1,17 @@
+package com.class12;
+
+public class StringManipulationContains {
+
+	public static void main(String[] args) {
+		
+		
+		// Contains
+		
+		 String setence= " It was raining";
+		 System.out.println(setence.contains("was"));
+		
+		
+
+	}
+
+}

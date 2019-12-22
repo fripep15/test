@@ -1,0 +1,29 @@
+package com.class11;
+
+public class LoopDemo2 {
+
+	public static void main(String[] args) {
+		// create a 2D  array of integer type and print 3 rows and 4 colomns, 
+// and print all values of the array
+		
+		int [][]  numbers= {
+				{1,2,3,4},
+				{10,20,30,40},
+				{100, 200, 300, 400}
+				
+		};
+		
+		for (int getRows[]:numbers) {
+			for (int getCol:getRows) {
+		
+		
+
+
+	System.out.print(getCol + " ");	
+		}
+			System.out.println();
+		}
+	}
+}
+
+

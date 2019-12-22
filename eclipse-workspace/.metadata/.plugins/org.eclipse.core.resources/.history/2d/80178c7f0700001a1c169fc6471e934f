@@ -1,0 +1,14 @@
+package replall;
+
+public class quizSubstring {
+
+	public static void main(String[] args) {
+		String str= "Watan is my contry and KABUL is its Capital";
+
+
+		System.out.println(str.toLowerCase());
+		
+
+	
+		}
+	}

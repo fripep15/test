@@ -1,0 +1,31 @@
+package com.class12;
+
+public class SingleArrayReview {
+
+	public static void main(String[] args) {
+		
+		int [] array1=new int[4];
+		array1[0]=12;
+		array1[1]=13;
+		array1[2]=14;
+		array1[3]=15;
+		
+	//	method 1
+	 System.out.println(array1[0]);
+	 
+	 System.out.println(" second method=================  ");
+		
+		// method 2
+		for (int s=0; s<array1.length; s++) {
+		
+		System.out.println(array1[s]);
+	   
+		// third method   
+	}
+		System.out.println("  +++++++++++++++   ");
+		for (int i:array1) {
+			System.out.println(i);
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.class12;
+
+public class NotEqualString {
+
+	public static void main(String[] args) {
+		
+
+		String str3= "Muhammad";
+				
+	System.out.println(" Before how was looking :: "+ str3);
+		
+		str3= str3.toLowerCase();
+		System.out.println(" after how it looking ::" + str3);
+		
+		str3=str3.toUpperCase();
+		System.out.println(" after how it looking ::" + str3);
+
+	}
+
+}

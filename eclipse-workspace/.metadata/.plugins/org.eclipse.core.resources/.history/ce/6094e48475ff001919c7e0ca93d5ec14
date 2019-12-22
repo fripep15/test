@@ -1,0 +1,16 @@
+package com.nterview_questions;
+
+public class AlphaNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//number3
+		String s = "Java4;%^&Killers*89a9";
+		 System.out.println(s.replaceAll("^A-Za-z", " "));
+		  String s2=s.replaceAll("[^A-Z-a-z]","");
+		  System.out.println(s2.length());
+	}
+
+}

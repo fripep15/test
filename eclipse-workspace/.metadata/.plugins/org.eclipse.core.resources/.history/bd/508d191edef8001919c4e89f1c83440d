@@ -1,0 +1,51 @@
+package com.class12;
+
+public class TaskContains {
+
+	public static void main(String[] args) {
+		
+
+		// Contains
+		
+		 String practice= " It was raining";
+		 System.out.println(practice.contains("was"));
+		
+		// Subset , ask is this set included in the other string
+		 
+
+		 String str1= " It was raining";
+		 String str2="was ";
+		 System.out.println(str1.contains(str2));
+		 
+		 /*
+		  * sen.length();
+         * sen.equals();
+         * sen.contains(s);
+         * sen.toUpperCase();
+         * sen.toLowerCase();
+         * sen.equalsIgnoreCase(anotherString);
+		  */
+		 
+		 
+		 //sen.length();
+		 System.out.println(practice.length());
+		 
+		 
+		 //  sen.equals();
+		 String str3= " It was raining";
+		 String str4="was ";
+		 boolean isEqual=str3.equals(str4);
+	        System.out.println(isEqual);
+	        
+	        System.out.println(" =======Contains==========");
+	        
+	        String str5=" Gran Watan Afghanistan";
+	        String str6="Gran Watan";
+	        
+	        System.out.println(str5.contains(str6));
+	        
+	        
+		 
+	}
+
+}

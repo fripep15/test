@@ -1,0 +1,17 @@
+package com.class11;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		//String [] cars=new String [6];
+		//cars[0]=33;
+		String [] cars= {"toyota" , "carolla", "Suzukia", "Honda", "Kia"};
+		for (String ar:cars) {
+System.out.println(ar);
+	}
+
+}
+}

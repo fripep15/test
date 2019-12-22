@@ -1,0 +1,18 @@
+package com.class11;
+
+public class Ripl {
+	public static void main(String [] args ) {
+		
+		
+				
+				
+			
+				int[] numarr= {45,78, 12,  67, 55, 89, 23, 77, 88};
+				  for(int i=1; i<=numarr.length; i+=3){
+				  System.out.print(numarr[i]/i+" ");
+				  }
+				}
+				}
+	
+
+

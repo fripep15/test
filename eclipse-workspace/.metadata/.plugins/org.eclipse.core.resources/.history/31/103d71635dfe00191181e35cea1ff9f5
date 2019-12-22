@@ -1,0 +1,15 @@
+package com.class14;
+
+public class SplitMethod {
+
+	public static void main(String[] args) {
+		
+		String str="An array, in the context of Java, is a dynamically-created object "
+				+ "that serves as a container to hold constant number of values of the "
+				+ "same type. By declaring an array, memory space is allocated for values of a particular type. ..."
+				+ " An array element that is also an array is known as a subarray.";
+		
+		System.out.println(str.split(" "));
+	}
+
+}

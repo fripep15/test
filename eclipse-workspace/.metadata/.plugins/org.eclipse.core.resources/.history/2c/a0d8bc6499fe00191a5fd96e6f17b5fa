@@ -1,0 +1,18 @@
+package replall;
+
+public class Repl93 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//Validate if the string ends with "u" prints the Boolean value accordingly.
+//Validate if the string ends with "world" prints the Boolean value accordingly.
+//Validate if the string ends with "are" prints the Boolean value accordingly.
+//Validate if the string ends with "you" prints the Boolean value accordingly.
+		
+		  String s1="hello how are you"; 
+		  
+	System.out.println(s1.endsWith("u"));
+	}
+
+}

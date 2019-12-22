@@ -1,0 +1,21 @@
+package replall;
+
+public class ArrayIntAdvanceLoop {
+
+	public static void main(String[] args) {
+
+
+		int [] name=new int[4];
+		
+		name[0]=1;
+		name[1]=22;
+		name[2]=44;
+		name[3]=55;
+		
+for (int number:name) {
+	System.out.println(number);
+	
+}
+	}
+
+}

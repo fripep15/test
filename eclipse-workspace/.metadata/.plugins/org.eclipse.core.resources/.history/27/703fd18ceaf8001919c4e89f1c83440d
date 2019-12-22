@@ -1,0 +1,44 @@
+package com.class12;
+
+public class concatination {
+
+	public static void main(String[] args) {
+
+
+		String str ="Hello ";
+		String str1="World";
+		String str2="People";
+		
+		System.out.println(str+" "+str1);
+		System.out.println(str1.concat(" "+str).concat(str2));
+		
+		// leadinga nd trailing whitespace ommitted
+		
+		System.out.println("  ====   leadinga nd trailing whitespace ommitted======");
+		
+		String str6="     how are you";
+		System.out.println(str6);
+		System.out.println(str6.trim());
+		
+		
+		
+		//return Character located at the string's specific index
+		System.out.println("  ==== return Character located at the string's specific index +++++++++++");
+	String str7=" We might be done early today";
+	
+	System.out.println(str7.charAt(7));
+	
+	// Index of character, 
+	
+	
+	// will give you characters coming first, not the next one
+	
+	String str8="We might not be done early";
+	System.out.println(str8.indexOf('m'));
+	
+	// if there is more than 1 characters, now you have to give the specific , y ou need
+	System.out.println(str8.indexOf('e',4 ));
+	
+	}
+
+}

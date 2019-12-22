@@ -1,0 +1,33 @@
+package com.class12;
+
+public class ChangeLetterType {
+
+	public static void main(String[] args) {
+
+
+		String str1= "Hellow World";
+		
+		System.out.println(" Before how was looking :: "+ str1);
+		
+		str1= str1.toLowerCase();
+		System.out.println(" after how it looking ::" + str1);
+		
+		
+		
+		// .equal()
+		
+		String str2= "HElLo WoRld";
+		boolean iseqal=str1.equals(str2);
+		System.out.println(iseqal);
+		
+		
+		// .eqaulsIqnore.equal
+		
+
+		String str2= "HElLo WoRld";
+		boolean iseqal=str1.equals(str2);
+		System.out.println(iseqal);
+		
+	}
+
+}
